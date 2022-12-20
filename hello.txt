@@ -1,0 +1,2 @@
+Hello Everyone
+We are going to learn Git
