@@ -1,4 +1,4 @@
-Hello Everyone
+Hello Everyone, How are You?
 We are going to learn Git
 Git is very powerful tool
 Git is very nice
