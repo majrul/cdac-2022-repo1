@@ -46,3 +46,15 @@ git remote add myremoterepo http://github.com/....
 - Then to push the files from local to remote, we need to type:
 git push myremoterepo main/master
 
+
+- Next we need to understand how to collaborate and resolve any conflict if arises while working on a project
+
+-To simulate, create two folders "developer1" and "developer2"
+- Then clone the github project in both the folders
+git clone https://github.com/majrul/cdac-2022-repo1
+
+- Then one by one try committing and pushing different files from both the developers end
+
+- After this try simulating as if 2 developers are changing the same file
+- Conflict will arise which we will have to fix it manually
+Then commit and push
