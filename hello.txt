@@ -1,4 +1,4 @@
-Hello Everyone, How are You?
+Hello Everyone, Aap log kaise ho?
 We are going to learn Git
 Git is very powerful tool
 Git is very nice
