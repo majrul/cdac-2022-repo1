@@ -2,3 +2,4 @@ Hello Everyone
 We are going to learn Git
 Git is very powerful tool
 Git is very nice
+Git is a powerful collaboration tool
