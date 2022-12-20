@@ -1,0 +1,48 @@
+- To check the version of git installation:
+git --version
+
+- To learn Git, first create one folder somewhere on your filesystem
+and on the shell/terminal/command prompt, go inside that folder using:
+cd folder-path/name
+
+- Next let's create one file inside this folder, for ex:
+hello.txt. For ex if you want to open notepad, you can type:
+notepad hello.txt
+
+- Now to start using git, the first thing we need to do is create a repository:
+git init
+
+- Next we need to add the hello.txt file to the staging area of Git by using:
+git add hello.txt
+
+- After this, we need to commit the changes by using:
+git commit -m "my first commit"
+
+- Practice modifying an existing file, adding and committing it
+- Practice creating another file, adding and committing it
+
+- Then to check the commit history:
+git log
+
+- We can go and see the content of the file in any previous commit by typing:
+git checkout commit-id (copy commit id from git log)
+
+CAUTION: please don't do any changes by going back in time as of now, just view the state of the files and come out
+
+- To come back to the current timeline:
+git checkout main/master
+
+
+- Now we will see how to push the files from the local repository to a remote repository like Github
+
+- First we need to login to Github and create a new repository
+  - Create a blank repository and public initially
+  - You will get the URL for accessing the repository, make a note of it
+  - Also we need to go to Developer settings and generate a personal access token for logging into our Github account from anywhere
+
+- Back on the Command Prompt, we will link the remote repository with the local one by typing:
+git remote add myremoterepo http://github.com/....
+
+- Then to push the files from local to remote, we need to type:
+git push myremoterepo main/master
+
