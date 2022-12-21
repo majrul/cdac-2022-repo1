@@ -1,1 +1,3 @@
 Git is amazing
+Git is powerful
+
