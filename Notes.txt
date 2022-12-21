@@ -58,3 +58,19 @@ git clone https://github.com/majrul/cdac-2022-repo1
 - After this try simulating as if 2 developers are changing the same file
 - Conflict will arise which we will have to fix it manually
 Then commit and push
+
+
+- Next we will see how  to create branches in a Git repository
+- Creating a branch is like creating another copy of all the files in the repository
+- By default one branch by the name master/main is created in any Git repository
+- The command to create a branch and shift to the same is:
+git checkout -b bugfix
+
+Then do some changes in the files, add and commit. After this return to the main branch by typing:
+git checkout master/main
+
+Then to merge the changes done in the branch with the main branch, we will type:
+git merge bugfix
+
+TODO:
+Practice Git integration from Eclipse and VS Code
